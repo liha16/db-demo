@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+/* #F6BD60 */
+
+/* GENERAL */
+
+html{
+    font-family:'Montserrat', Helvetica, Arial, sans-serif;
+    background-color:#F7EDE2;
+    font-weight: lighter;
+    font-size: 1.1em;
+}
+body{
+    margin: 0;
+    color: rgb(15, 13, 13);
+}
+
+h1{
+    color: #F28482;
+    font-weight: 500;
+    font-size: 3em;
+    font-family:'Playfair Display', serif;
+}
+
+h2, h3{
+  font-family:'Playfair Display', serif;
+}
+
+h3{
+  color: #84A59D;
+}
+
+
+header{
+    background-color: #F28482;
+    padding:16px;
+    font-size: 2em;
+    font-family:'Playfair Display', serif;
+}
+
+article {
+  margin:30px auto ;
+  max-width: 700px;
+  padding:1px 20px 20px;
+  background-color: white;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(161, 68, 87);
+}
+
+.content{
+  margin:30px;
+  max-width: 600px;
+}
+
+hr{
+  border-top: 0.2px solid rgb(209, 209, 209);
+  border-bottom: 0;
+}
+
+/* NAVIGATION */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #84A59D;
+  }
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color:rgb(106, 116, 107);
+}
+
+li .active{
+    background-color:  rgb(51, 51, 51);
+}
+
+
+/* AUTHOR */
+
+.profilepic{
+    max-width: 100%;
+}
+
+
+/* WEEKS */
+
+.weeklist{
+  max-width: 100%;
+  background-color:rgb(51, 51, 51);
+  
+}
+.weeklink{
+  background-color: rgb(51, 51, 51);
+  color:white;
+  padding:5px 10px;
+  text-decoration: none;
+  line-height: 2
+}
+.weeklink:hover{
+  background-color: #F28482;
+}
+.activeweek{
+  color: #F28482;
+  padding:5px 10px;
+  text-decoration: none;
+  line-height: 2
+}
+
+.dueCalculator{
+  background-color: #F5CAC3;
+  padding:20px;
+}
+
+.weekpic{
+  width: 50%;
+  
+}
